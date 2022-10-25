@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+header .logo {
+    width: 200px;
+}
+
+header nav {
+    width: 100%;
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    transition: color 250ms ease-in-out;
+    padding: 2rem;
+}
+
+nav ul a:hover {
+    color: yellow;
+    background-color: dodgerblue;
+}
+
+.hero {
+    height: 75vh;
+    width: 100%;
+    background-image: url(../img/castle.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    width: 30%;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+
+main {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+[class^=item]{
+    border: solid 1px black;
+}
+
+.item01 {
+    width: 100%;
+}
+
+.item02,
+.item03,
+.item04 {
+    width: 33.33%;
+}
+
+.item05,
+.item06 {
+    width: 50%;
+}
+
+.item07,
+.item08,
+.item09,
+.item10 {
+    width: 25%;
+}
+
+footer {
+    width: 100vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.footer-content {
+    width:1280px;
+    display: flex;
+}
+
+footer section {
+    width: 30%;
+}
+
+
